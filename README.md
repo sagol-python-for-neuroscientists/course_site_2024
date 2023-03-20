@@ -16,10 +16,10 @@ Homework assignments, excluding the first one, will be presented in different re
 
 To get started with python, please follow [these instructions](https://sagol-python-for-neuroscientists.github.io/textbook/tutorials/python_setup.html).
 
-<!-- ## Homework Assignments
+## Homework Assignments
 
 - [Assignment 1](assignments/assignment1/HW1.md)
-- [Assignment 2](assignments/assignment2/README.md)
+<!-- - [Assignment 2](assignments/assignment2/README.md)
 - [Assignment 3](assignments/assignment3/README.md)
 - [Assignment 4](assignments/assignment4/README.md)
 - [Assignment 5](https://github.com/sagol-python-for-neuroscientists/hw5) - Make sure to read the "special" submission guidelines!
