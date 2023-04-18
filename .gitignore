@@ -61,6 +61,7 @@ assignments/assignment6
 # assignments/assignment1/*.py
 assignments/assignment2/hw*.py
 assignments/assignment3/hw*.py
+assignments/assignment3/hw*.py
 assignments/assignment4/hw*.py
 
 # Hackathon
