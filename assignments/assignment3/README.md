@@ -4,7 +4,7 @@
 
 ## Due date: 02-05-2023, 18:00
 
-To access the assignment, please [click here](https://classroom.github.com/a/2dYN0x0v), accept the assignment and begin working through it.
+### To access the assignment, please [click here](https://classroom.github.com/a/2dYN0x0v), accept the assignment and begin working through it.
 
 1. _Duplicates Discovery:_
    Define a class that scans through a folder with all of its subfolders and returns the following:
