@@ -56,13 +56,14 @@ venv/
 # assignments/assignment2
 # assignments/assignment3
 assignments/assignment4
-assignments/assignment5
+# assignments/assignment5
 assignments/assignment6
 # assignments/assignment1/*.py
 assignments/assignment2/hw*.py
 assignments/assignment3/hw*.py
 assignments/assignment3/hw*.py
 assignments/assignment4/hw*.py
+assignments/assignment5/hw*.py
 
 # Hackathon
 hackathon*
