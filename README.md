@@ -18,11 +18,11 @@ To get started with python, please follow [these instructions](https://sagol-pyt
 
 <!-- ## Homework Assignments -->
 
-<!-- - [Assignment 1](assignments/assignment1/HW1.md)
-- [Assignment 2](assignments/assignment2/README.md)
+- [Assignment 1](assignments/assignment1/HW1.md)
+<!-- - [Assignment 2](assignments/assignment2/README.md)
 - [Assignment 3](assignments/assignment3/README.md)
 - [Assignment 4](https://github.com/sagol-python-for-neuroscientists/hw4)
 - [Assignment 5](https://github.com/sagol-python-for-neuroscientists/hw5) - Make sure to read the "special" submission guidelines!
-- [Assignment 6](https://github.com/sagol-python-for-neuroscientists/hw6) -->
+- [Assignment 6](https://github.com/sagol-python-for-neuroscientists/hw6) --> -->
 
 General submission guidelines can be found [here](submission-guidelines.md).
