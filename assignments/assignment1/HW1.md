@@ -25,17 +25,12 @@
             """
         ```
 
-2.  _Book-keeping:_ Teachers keep a record of the names of their students alongside their scores in the first and second
-    exams of the semester. The principal wishes to compare the grades of a single student in two different subjects, to see where students
-    have the highest grades.
+2.  _Book-keeping:_ 
+Teachers keep a record of the names of their students alongside their scores in the first and second exams of the semester. The principal wishes to compare the grades of a single student in two different subjects, to see where students have the highest grades.
 
-        Write a program that compares the highest grade, for each student, in the two subjects. The program should print a "table" with the
+    Write a program that compares the highest grade, for each student, in the two subjects. The program should print a "table" with the student's name and the higher-graded subject. The table should be some data structure which is returned from the function.
 
-    student's name and the higher-graded subject. The table should be some data structure which is returned from the function.
-
-        For example: In Maths, Jack received 80 in his first test and 85 in his second. In History, Jack received 75 and 95. The program
-
-    print out Jack's name alogside his better subject - History.
+For example: In Maths, Jack received 80 in his first test and 85 in his second. In History, Jack received 75 and 95. The program should print out Jack's name alogside his better subject - History.
 
         ```python
         def compare_subjects_within_student(
