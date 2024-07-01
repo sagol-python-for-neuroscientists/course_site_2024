@@ -55,7 +55,8 @@ venv/
 # assignments/assignment1/*.py
 # assignments/assignment1/*.pdf
 assignments/assignment2/*pdf
-assignments/assignment3
+assignments/assignment3/*pdf
+assignments/assignment3/hw*
 assignments/assignment4
 assignments/assignment5
 assignments/assignment6
@@ -68,5 +69,5 @@ assignments/assignment6
 # Hackathon
 hackathon-projects.md*
 hackathon*
-*.ods*
+*.ods*g
 *.xlsx
