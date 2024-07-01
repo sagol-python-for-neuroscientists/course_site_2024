@@ -2,7 +2,7 @@
 
 ## Date: 01-07-2024
 
-## Due date: 15-07-2023, 15:00
+## Due date: 15-07-2024, 15:00
 
 ### To access the assignment, please [click here](https://classroom.github.com/a/nYTv8cUx), accept the assignment and begin working through it.
 
