@@ -1,4 +1,5 @@
 """ Tests for question 2 - Spreading Virus """
+
 from hw2_q2 import Agent, Condition, meetup
 
 data0 = (

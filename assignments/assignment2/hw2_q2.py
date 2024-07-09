@@ -92,11 +92,14 @@ def meetup(agent_listing: tuple) -> list:
             updated_listing.append((agent,))
         else:
             relevant_agents.append(agent)
-    for inp in grouper(relevant_agents, 2):
+    for inp in grouper(relevant_agents, 2):  # [[Agent, Agent], [Agent, None]]
+        # inp = [Agent, Agent] or [Agent, None]
         updated_listing.append(
             condition_to_function_switch[inp[0].category](inp[0], inp[1])
         )
-    updated_listing = chain.from_iterable(updated_listing)
+    updated_listing = chain.from_iterable(
+        updated_listing
+    )  # [(Agent,Agent), (Agent,)] -> [a,b,c,d]
     return list(updated_listing)
 
 
