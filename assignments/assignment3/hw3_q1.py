@@ -16,6 +16,7 @@ class FolderIterator:
         The keys are the parent files and the values are a list of filenames
         with the same content.
     """
+
     # Since we defined self.foldername to be a pathlib.Path object,
     # recursive iteration in that folder is very clear and easy.
     # The content of the unique files is held in the "uniques"
@@ -33,7 +34,9 @@ class FolderIterator:
         self.content = []
 
     def iter_folder(self):
-        """Main function to find duplicate and unique files in the filesystem."""
+        """
+        Main function to find duplicate and unique files in the filesystem.
+        """
         for file in self.foldername.rglob("*.*"):
             with open(file, "r") as f:  # file is open for a brief period
                 content = f.read()
