@@ -30,8 +30,8 @@ class FolderIterator:
         self.foldername = pathlib.Path(str(foldername))
         assert self.foldername.exists()
         self.uniques = []  # list of tuples of (filename, content)
-        self.duplicates = {}
-        self.content = []
+        self.duplicates = {}  # dictionary of {filename: [duplicates]}
+        self.content = []  # list of file contents
 
     def iter_folder(self):
         """
