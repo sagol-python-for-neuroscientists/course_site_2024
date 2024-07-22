@@ -1,4 +1,4 @@
-from hw4_q2 import *
+from hw4_q2 import largest_species, lynxes_when_hares, mean_animals
 
 import pandas as pd
 import numpy as np
@@ -13,7 +13,10 @@ def test_assert_largest_species_series():
 
 def test_largest_species_idx():
     data = pd.read_csv(
-        "tests_data/q3_largest.csv", index_col=0, header=None, names=["year", "animal"]
+        "tests_data/q3_largest.csv",
+        index_col=0,
+        header=None,
+        names=["year", "animal"],
     )
     assert np.all(data.index == largest_species(fname).index)
 
@@ -24,8 +27,7 @@ def test_largest_species_content():
         index_col=0,
         header=None,
         names=["year", "animal"],
-        squeeze=True,
-    )
+    ).squeeze()
     assert np.all(data.values == largest_species(fname).values)
 
 
@@ -35,7 +37,10 @@ def test_assert_lynx_series():
 
 def test_lynx_idx():
     data = pd.read_csv(
-        "tests_data/q3_lynx.csv", index_col=0, header=None, names=["year", "lynx"]
+        "tests_data/q3_lynx.csv",
+        index_col=0,
+        header=None,
+        names=["year", "lynx"],
     )
     assert np.all(data.index == lynxes_when_hares(fname).index)
 
@@ -46,8 +51,7 @@ def test_lynx_values():
         index_col=0,
         header=None,
         names=["year", "lynx"],
-        squeeze=True,
-    )
+    ).squeeze()
     assert np.allclose(data.values, lynxes_when_hares(fname).values)
 
 
