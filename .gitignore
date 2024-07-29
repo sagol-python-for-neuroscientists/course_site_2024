@@ -58,13 +58,13 @@ assignments/assignment2/*pdfe
 # assignments/assignment3/*pdf
 # assignments/assignment3/hw*
 #assignments/assignment4
-assignments/assignment5
+#assignments/assignment5
 assignments/assignment6
 # assignments/assignment1/*.py
 # assignments/assignment2/hw*.py
- assignments/assignment3/hw*.py
-# assignments/assignment4/hw*.py
-# assignments/assignment5/hw*.py
+assignments/assignment3/hw*.py
+assignments/assignment4/hw*.py
+assignments/assignment5/hw*.py
 
 # Hackathon
 hackathon-projects.md*
